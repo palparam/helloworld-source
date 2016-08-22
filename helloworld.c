@@ -9,9 +9,9 @@
 #include <time.h>
 #include <unistd.h>
 
-void main()
+int main()
 {
-	int a=10, b=2147483647;
+	int a=10, b=1073741824;
 	int i,j;
 	for(i=0;i<a;i++)
 	{
@@ -22,5 +22,6 @@ void main()
 		{
 		}
 	}
+ return 0;
 }
 
