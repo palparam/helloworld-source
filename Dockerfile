@@ -10,8 +10,7 @@ RUN apt-get update \
 # Copy C code to /src
 COPY . /src
 
-RUN cd /src \
-    && git config --global user.name "paramesh-p" \
+RUN && git config --global user.name "paramesh-p" \
     && git config --global user.email "params16jan@gmail.com"r
     && git clone https://paramesh-p:p2r2mesh@github.com/paramesh-p/helloworld-output.git
 
